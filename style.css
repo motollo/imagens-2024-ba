@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+   
+}
+
+
+.container div{
+    height: 500px;
+    width: 700px;
+    flex-grow: 1;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.container img:hover{
+    transform: scale(1.3);
+}
